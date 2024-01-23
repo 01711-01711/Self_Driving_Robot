@@ -1,1 +1,39 @@
-#pyproject
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "robotic-navigation-system"
+version = "0.0.1"
+authors = [
+  { name="Mateusz Zawila", email="zcftmza@ucl.ac.uk" },
+]
+description = "An enhanced robotic navigation system for healthcare institutions"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+# Commented out as these were installed in venv using requirements.txt
+# dependencies = [
+#    "numpy",
+#    "matplotlib",
+#]
+
+
+[tool.pytest.config]
+rootpath = ["src"]
+testpaths = ["tests"]
+addopts = "-v -s"
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+
+[tool.pytest.config]
+rootpath = ["src"]

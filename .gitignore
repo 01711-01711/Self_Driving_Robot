@@ -1,1 +1,36 @@
-#.gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+
+# Virtual Environments
+venv/
+.venv/
+
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+.ipynb_checkpoints
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.seed
+
+
+# Environment variables
+.env
+
+
+# Python distribution artifacts
+*.egg-info/
+dist/
+build/
+
+
+# Operating System generated files
+.DS_Store
+
