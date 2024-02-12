@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>mech0020_robot</name>
+  <version>0.0.1</version>
+  <description>A ROS 2 package for MECH0020 Robot.</description>
+  <maintainer email="mateuszzawila01@gmail.com">Mateusz Zawila</maintainer>
+  <license>MIT License</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

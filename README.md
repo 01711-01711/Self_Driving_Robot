@@ -33,5 +33,5 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 ## Contact
 
-For any inquiries, please reach out to Mateusz Zawila / zcftmza@ucl.ac.uk
+For any inquiries, please reach out to Mateusz Zawila / mateuszzawila01@gmail.com
 
