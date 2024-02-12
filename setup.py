@@ -17,6 +17,7 @@ setup(
     entry_points={
         'console_scripts': [
             'publisher = mech0020_robot.publisher:main',
+            'subscriber = mech0020_robot.subscriber:main',
         ],
     },
 )
